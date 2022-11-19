@@ -13,7 +13,7 @@
 #
 
 # enable indexing
-Options +Indexes
+Options -Indexes
 
 # index options
 IndexOptions +Charset=UTF-8 +FancyIndexing +FoldersFirst +IconsAreLinks +IgnoreCase +NameWidth=500 +SuppressRules +XHTML -SuppressHTMLPreamble
