@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <style data-merge-styles="true"></style>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="/theme/favicon.ico">
+    <title>Karol&#128126;</title>
+    <style>
+        @font-face {
+            font-family: product-sans;
+            src: url(theme/font.ttf)
+        }
+
+        .gridView {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+            max-width: 600px
+        }
+
+        .profileCard {
+            align-items: center;
+            flex-direction: column;
+            display: flex;
+            width: min-content;
+            margin-bottom: 16px;
+            border-radius: 10px;
+            color: #ffffff;
+            padding: 16px;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .profileName {
+            margin: 0;
+            color: #e0e0e0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 3px
+        }
+
+        .buttonText {
+            padding: 0;
+            margin: 0;
+            line-height: 1.5;
+            width: 100%;
+
+            height: 100%;
+            font-weight: 500;
+            display: table-cell;
+            color: #e0e0e0;
+        }
+
+        .profileImage {
+            width: 96px;
+            height: 96px;
+            border-radius: 10px;
+            margin-bottom: 16px;
+        }
+
+        .buttonTextLink {
+            font-family: inherit;
+            font-weight: inherit;
+            font-size: inherit;
+            text-align: center;
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            justify-content: center;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            color: inherit
+        }
+
+        .button {
+            height: min-content;
+            margin-bottom: 16px;
+            border-radius: 10px;
+            color: #ffffff
+        }
+
+        .button:hover {
+            transform: scale(1.003)
+        }
+
+        .glassBlur {
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            border-radius: 10px;
+        }
+
+        body {
+            font-family: product-sans;
+            box-sizing: border-box;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #0f0f0f;
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+            background: radial-gradient(circle at right bottom, #ff9482, #7d77ff);
+        }
+
+        @media(prefers-color-scheme:dark) {
+            body {
+                background-color: #0f0f0f;
+                background: radial-gradient(circle at left top, #b65eba, #2e8de1);
+            }
+        }
+
+        *,
+        :after,
+        :before {
+            box-sizing: inherit
+        }
+    </style>
+    <meta name="theme-color" content="#937b95ff">
+    <meta name="theme-color" content="#59598dff" media="(prefers-color-scheme: dark)">
+</head>
+
+<body>
+    <div class="gridView">
+        <div class="profileCard glassBlur"><img src="theme/profile.jpg?version=2" class="profileImage">
+            <h1 class="profileName">Karol Peszek</h1>
+        </div>
+        <div class="button glassBlur"> <a href="https://www.snapchat.com/add/kaur0l" class="buttonTextLink">
+                <p class="buttonText">Snapchat</p>
+            </a> </div>
+        <div class="button glassBlur"> <a href="https://www.instagram.com/kxvrol/" class="buttonTextLink">
+                <p class="buttonText">Instagram</p>
+            </a> </div>
+        <div class="button glassBlur"> <a href="https://tiktok.com/@kaur0l" class="buttonTextLink">
+                <p class="buttonText">TikTok</p>
+            </a> </div>
+        <div class="button glassBlur"> <a href="https://github.com/karolpeszek" class="buttonTextLink">
+                <p class="buttonText">GitHub</p>
+            </a> </div>
+        <div class="button glassBlur"> <a href="https://bere.al/kaur0l" class="buttonTextLink">
+                <p class="buttonText">BeReal</p>
+            </a> </div>
+    </div>
+</body>
+
+</html>
