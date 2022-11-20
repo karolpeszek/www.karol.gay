@@ -1,16 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <style data-merge-styles="true"></style>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="Karol Peszek, karol.gay, Peszek">
+    <meta name="author" content="karol Peszek">
+    <meta name="description" content="Karol Peszek - young developer from Poland">
     <link rel="icon" href="/theme/favicon.ico?version=3">
-    <title>Karol&#128126;</title>
+    <title>Karol&#10052;</title>
     <style>
         @font-face {
             font-family: product-sans;
-            src: url(theme/font.ttf)
+            src: local('Arial'), url(theme/font.ttf)
         }
-        
+
         .gridView {
             flex-direction: column;
             justify-content: space-between;
@@ -24,7 +28,7 @@
             margin: 0 auto;
             max-width: 600px
         }
-        
+
         .profileCard {
             align-items: center;
             flex-direction: column;
@@ -37,7 +41,7 @@
             margin-left: auto;
             margin-right: auto
         }
-        
+
         .profileName {
             margin: 0;
             color: #e0e0e0;
@@ -50,7 +54,7 @@
             overflow: hidden;
             padding: 3px
         }
-        
+
         .buttonText {
             padding: 0;
             margin: 0;
@@ -61,14 +65,14 @@
             display: table-cell;
             color: #e0e0e0;
         }
-        
+
         .profileImage {
-            width: 96px;
-            height: 96px;
+            width: 110px;
+            height: 110px;
             border-radius: 10px;
             margin-bottom: 16px;
         }
-        
+
         .buttonTextLink {
             font-family: inherit;
             font-weight: inherit;
@@ -90,18 +94,18 @@
             word-wrap: break-word;
             color: inherit
         }
-        
+
         .button {
             height: min-content;
             margin-bottom: 16px;
             border-radius: 10px;
             color: #ffffff
         }
-        
+
         .button:hover {
             transform: scale(1.003)
         }
-        
+
         .glassBlur {
             background: rgba(255, 255, 255, 0.1);
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -109,7 +113,7 @@
             -webkit-backdrop-filter: blur(6px);
             border-radius: 10px;
         }
-        
+
         body {
             font-family: product-sans;
             box-sizing: border-box;
@@ -119,21 +123,22 @@
             background-attachment: fixed;
             background-color: #0f0f0f;
             margin: 0;
-            height: 100vh;
-            width: 100%;
-            background: radial-gradient(circle at right bottom, #ff9482, #7d77ff);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: radial-gradient(circle at right bottom, #ff9482, #7d77ff);
         }
-        
+
         @media(prefers-color-scheme:dark) {
             body {
                 background-color: #0f0f0f;
-                background: radial-gradient(circle at left top, #b65eba, #2e8de1);
+                background-image: radial-gradient(circle at left top, #b65eba, #2e8de1);
             }
         }
-        
+
         *,
-         :after,
-         :before {
+        :after,
+        :before {
             box-sizing: inherit
         }
     </style>
@@ -143,7 +148,8 @@
 
 <body>
     <div class="gridView">
-        <div class="profileCard glassBlur"><img src="theme/profile.jpg?version=3" class="profileImage">
+        <div class="profileCard glassBlur"><img src="theme/profile.webp"
+                onerror="this.onerror=null;this.src='theme/profile.jpg';" alt="Profile" class="profileImage">
             <h1 class="profileName">Karol Peszek</h1>
         </div>
         <div class="button glassBlur">

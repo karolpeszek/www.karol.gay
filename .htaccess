@@ -35,6 +35,21 @@ IndexHeadInsert "\
 # hide ".htaccess" file and "/theme" directory
 IndexIgnore .htaccess /theme sw.js manifest.webmanifest browserconfig.xml
 
+AddCharset UTF-8 .html
+
+ExpiresActive On
+AddType image/webp .webp
+ExpiresDefault A300
+ExpiresByType image/gif A604800
+ExpiresByType image/png A604800
+ExpiresByType image/webp A604800
+ExpiresByType font/ttf A604800
+ExpiresByType image/jpg A604800
+ExpiresByType image/x-icon A604800
+ExpiresByType application/pdf A604800
+ExpiresByType application/x-javascript A604800
+ExpiresByType text/plain A604800
+ExpiresByType text/css A604800
 
 #
 # general icons (blank, directory, parent directory)
